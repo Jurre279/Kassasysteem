@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+     background-color: whitesmoke;
+ }
+ a {
+     color: black;
+ }
+
+ input[type="checkbox"]{
+     display: none;
+     margin-right: 20px;
+ }
+ button.button.button-next {
+     position: absolute;
+     right: 20px;
+     bottom: 20px;
+     padding: 10px 20px;
+     border: 2px solid #2b2b27;
+     font-size: 18px;
+     transition: all .5s;
+ }
+
+ .eindrekening-container h3 {
+     text-align: end;
+ }
+ .eindrekening-product{
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     padding: 10px;
+     margin-bottom: 20px;
+ }
+ .eindrekening-product p {
+    font-size: 1.5em;
+     width: 33%;
+ }
+ .eindrekening-amount {
+     text-align: end;
+ }
+ #total{
+     padding: 10px;
+     border-top: 1px #000 solid;
+     margin: 0 30px;
+ }
